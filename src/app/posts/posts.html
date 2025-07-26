@@ -1,0 +1,72 @@
+<div *ngIf="!showform" class="posts-container">
+  <div class="post-card" *ngFor="let post of posts()">
+
+    <div class="post-header">
+      <app-date-user [userid]="post.userid"
+        [date_create]="post.date"></app-date-user>
+    </div>
+
+    <img [src]="post.imgurl" class="post-image" alt="Post Image" />
+
+    <div class="post-content">
+      <h3 class="post-title">{{post.title}}</h3>
+      <p class="post-body">{{post.body}}</p>
+    </div>
+
+    <div class="post-actions">
+      <button class="btn like-btn"
+        [ngClass]="{ 'liked': post.like }"
+        (click)="likecounter(post)">
+        👍 Like ({{post.likes}})
+      </button>
+      <button class="btn delete-btn" (click)="removepost(post.id)">🗑
+        Delete</button>
+    </div>
+
+    <div class="comments-section">
+      <input type="text" [(ngModel)]="comment" placeholder="Write your comment"
+        class="comment-input" />
+      <button class="btn comment-btn"
+        (click)="addcomment(post)">Comment</button>
+
+      <div class="comment-list">
+        <h6>Comments ({{post.comments.length}})</h6>
+        <ul>
+          <li *ngFor="let comment of post.comments">{{comment}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="form-container">
+  <form *ngIf="showform" (ngSubmit)="addpost()" #postform="ngForm">
+    <label>Title</label>
+    <input title="m" type="text" name="title" required
+      [(ngModel)]="newpost.title" #title="ngModel" />
+    <div *ngIf="title.invalid && title.touched" class="error">Title is
+      required</div>
+
+    <label>Body</label>
+    <textarea title="m" name="body" required [(ngModel)]="newpost.body"
+      #body="ngModel"></textarea>
+    <div *ngIf="body.invalid && body.touched" class="error">body is
+      required</div>
+    <label>Image URL</label>
+    <input title="m" type="url" name="imageUrl" required
+      [(ngModel)]="newpost.imgurl">
+
+    <label>ID</label>
+    <input title="m" type="number" name="userid" required
+      [(ngModel)]="newpost.userid" />
+
+    <button type="submit">Submit to add new post</button>
+  </form>
+</div>
+<div class="container d-flex justify-content-center align-items-center">
+  <button
+    (click)="toggleForm()"
+    class="btn btn-primary mt-3 mb-3 px-4 py-2 rounded shadow">
+    {{ showform ? 'Hide Form' : 'Add New Post' }}
+  </button>
+</div>

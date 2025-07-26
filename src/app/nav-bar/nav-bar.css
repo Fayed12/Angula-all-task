@@ -1,0 +1,47 @@
+.custom-navbar {
+  background: #ffffff;
+  padding: 12px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin: 10px auto;
+  max-width: 1200px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #4e73df !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  margin-left: 15px;
+  transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #4e73df;
+}
+
+.btn-outline-danger {
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background: #dc3545;
+  color: #fff;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #4e73df;
+  object-fit: cover;
+}

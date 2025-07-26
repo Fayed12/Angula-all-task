@@ -1,0 +1,169 @@
+{
+  "posts": [
+    {
+      "title": "Angular Basics",
+      "body": "Learning components, bindings, and directives.",
+      "id": "1",
+      "userid": 1,
+      "date": "2025-07-24T00:00:00.000Z",
+      "imgurl": "https://external-preview.redd.it/8RepBYZd9asPvRbSVpHBs2neMtYTAb3_A4x-yGVWFTk.jpg?auto=webp&s=34d1619ad1150aca1b4d84be2ae1874dd01e7b25",
+      "like": false,
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "title": "Support Gaza",
+      "body": "Praying for peace and justice in Gaza. Stay strong!",
+      "id": "2",
+      "userid": 2,
+      "date": "2025-07-25T00:00:00.000Z",
+      "imgurl": "https://tse1.mm.bing.net/th/id/OIP.XfLRwGu1J_38VuWM0iCwhgEyDM?cb=thvnextc1&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "like": true,
+      "likes": 12,
+      "comments": [
+        "Stay strong!",
+        "Prayers for Gaza 🙏"
+      ]
+    },
+    {
+      "title": "Tech Trends 2025",
+      "body": "AI is transforming everything from healthcare to finance. The future is here!",
+      "id": "3",
+      "userid": 3,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
+      "like": false,
+      "likes": 5,
+      "comments": [
+        "Exciting times ahead!",
+        "AI is the future!"
+      ]
+    },
+    {
+      "title": "Beautiful Gaza Beach",
+      "body": "Despite hardships, Gaza's beaches remain stunning and full of life.",
+      "id": "4",
+      "userid": 4,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://media.istockphoto.com/id/1271164046/photo/gaza-beach.jpg?s=612x612&w=0&k=20&c=pc_hJhxvD-1mf9xbrrPKCx6P4P3HOJ6h2QREGTCn7tk=",
+      "like": true,
+      "likes": 20,
+      "comments": [
+        "Such beauty!",
+        "Hope for peace soon."
+      ]
+    },
+    {
+      "title": "Travel Diary: Paris",
+      "body": "Exploring the streets of Paris. The Eiffel Tower is breathtaking at night!",
+      "id": "5",
+      "userid": 5,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg",
+      "like": false,
+      "likes": 7,
+      "comments": [
+        "Paris is love!",
+        "Adding this to my bucket list!"
+      ]
+    },
+    {
+      "title": "Breaking News: Gaza Updates",
+      "body": "Humanitarian aid finally reaches Gaza after weeks of waiting.",
+      "id": "6",
+      "userid": 6,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://images.pexels.com/photos/3991979/pexels-photo-3991979.jpeg",
+      "like": true,
+      "likes": 33,
+      "comments": [
+        "About time!",
+        "People need more help!"
+      ]
+    },
+    {
+      "title": "Fitness Tips",
+      "body": "Stay healthy by exercising at least 30 minutes daily. Consistency is key!",
+      "id": "7",
+      "userid": 7,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victor-freitas-841130.jpg&fm=jpg",
+      "like": false,
+      "likes": 4,
+      "comments": [
+        "Starting today!",
+        "Great advice."
+      ]
+    },
+    {
+      "title": "Coding in 2025",
+      "body": "JavaScript still dominates the web, but TypeScript is growing fast.",
+      "id": "8",
+      "userid": 8,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+      "like": true,
+      "likes": 14,
+      "comments": [
+        "TS for the win!",
+        "JS forever!"
+      ]
+    },
+    {
+      "title": "Voices from Gaza",
+      "body": "Families in Gaza share stories of resilience and hope for peace.",
+      "id": "9",
+      "userid": 9,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://images.pexels.com/photos/442581/pexels-photo-442581.jpeg",
+      "like": true,
+      "likes": 45,
+      "comments": [
+        "Heartbreaking yet inspiring.",
+        "Peace soon InshaAllah."
+      ]
+    },
+    {
+      "title": "Delicious Recipes",
+      "body": "Trying out some traditional Mediterranean dishes this weekend!",
+      "id": "10",
+      "userid": 10,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg",
+      "like": false,
+      "likes": 8,
+      "comments": [
+        "Yummy!",
+        "Share the recipe please!"
+      ]
+    },
+    {
+      "title": "Gaza Under Siege",
+      "body": "Electricity cuts and water shortages continue to affect daily life in Gaza.",
+      "id": "11",
+      "userid": 11,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://tse2.mm.bing.net/th/id/OIP.wKK_pYPZqtspes_MZUoEYwHaE7?cb=thvnextc1&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "like": true,
+      "likes": 60,
+      "comments": [
+        "This needs global attention.",
+        "Praying for relief."
+      ]
+    },
+    {
+      "title": "Space Exploration",
+      "body": "NASA's new mission aims to land humans on Mars by 2030!",
+      "id": "12",
+      "userid": 12,
+      "date": "2025-07-26T00:00:00.000Z",
+      "imgurl": "https://cdn.mos.cms.futurecdn.net/Cs7ujfUba4mgBbdSERWeMC.jpg",
+      "like": false,
+      "likes": 22,
+      "comments": [
+        "Amazing!",
+        "Can't wait to see this happen."
+      ]
+    }
+  ]
+}
